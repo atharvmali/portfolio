@@ -466,7 +466,7 @@
           <img src="./images/contact-me.svg" alt="constact image" draggable="false" />
         </div>
         <!-- class label1 ,label2,label3 added to form labels -->
-        <form class="contact" name="contact" method="POST" data-netlify="true" onSubmit="submit">
+        <form class="contact" name="contact" method="POST" netlify>
           <label for="name" class="label1">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -493,7 +493,6 @@
             </svg>
             Message</label>
           <textarea name="message" id="message" cols="25" rows="10" required></textarea>
-          <div data-netlify-recaptcha="true"></div>
           <button class="submit-btn" type="submit">
             <i class="fas fa-paper-plane"></i> &nbsp; Send Message
           </button>
